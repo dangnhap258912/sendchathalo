@@ -6,18 +6,18 @@ $tokenpa = $_GET['token'];
 
 
 
-
+$noidung1 = $noidung;
 //new
-$noidung1 = str_replace("sex","s.e.x",$noidung);
-$noidung1 = str_replace("xxx","x.x.x",$noidung);
-$noidung1 = str_replace("dâm","d.â.m",$noidung);
-$noidung1 = str_replace("cặc","c.ặ.c",$noidung);
-$noidung1 = str_replace("lồn","l.ồ.n",$noidung);
-$noidung1 = str_replace("Sex","s.e.x",$noidung);
-$noidung1 = str_replace("Xxx","x.x.x",$noidung);
-$noidung1 = str_replace("Dâm","d.â.m",$noidung);
-$noidung1 = str_replace("Cặc","c.ặ.c",$noidung);
-$noidung1 = str_replace("Lồn","l.ồ.n",$noidung);
+$noidung = str_replace("sex","s.e.x",$noidung);
+$noidung = str_replace("xxx","x.x.x",$noidung);
+$noidung = str_replace("dâm","d.â.m",$noidung);
+$noidung = str_replace("cặc","c.ặ.c",$noidung);
+$noidung = str_replace("lồn","l.ồ.n",$noidung);
+$noidung = str_replace("Sex","s.e.x",$noidung);
+$noidung = str_replace("Xxx","x.x.x",$noidung);
+$noidung = str_replace("Dâm","d.â.m",$noidung);
+$noidung = str_replace("Cặc","c.ặ.c",$noidung);
+$noidung = str_replace("Lồn","l.ồ.n",$noidung);
 //new
 
 function sendchat($token,$jsonData)
@@ -64,7 +64,7 @@ $url = "https://graph.facebook.com/v7.0/me/messages?access_token=$token";
    
 }
 echo $noidung1;
-sendchat2($noidung1,$partner,$tokenpa);
+sendchat2($noidung,$partner,$tokenpa);
 if (preg_match('/sex/', $noidung)||preg_match('/xxx/', $noidung)||preg_match('/dâm/', $noidung)||preg_match('/Sex/', $noidung)||preg_match('/Xxx/', $noidung)||preg_match('/Dâm/', $noidung)) {
     echo 'true';
   $jsonData ='{
