@@ -63,6 +63,7 @@ $url = "https://graph.facebook.com/v7.0/me/messages?access_token=$token";
  
    
 }
+echo $noidung1;
 sendchat2($noidung1,$partner,$tokenpa);
 if (preg_match('/sex/', $noidung)||preg_match('/xxx/', $noidung)||preg_match('/dâm/', $noidung)||preg_match('/Sex/', $noidung)||preg_match('/Xxx/', $noidung)||preg_match('/Dâm/', $noidung)) {
     echo 'true';
