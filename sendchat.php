@@ -78,7 +78,7 @@ if (preg_match('/sex/', $noidung1)||preg_match('/xxx/', $noidung1)||preg_match('
       {
         "content_type":"text",
         "title":"Tố cáo và kết thúc",
-        "payload":"endchat",
+        "payload":"Tố cáo và kết thúc",
       },{
         "content_type":"text",
         "title":"Không.",
