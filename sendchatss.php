@@ -83,7 +83,7 @@ if (preg_match('/sex/', $noidung1)||preg_match('/xxx/', $noidung1)||preg_match('
     sendchat($tokenpa,$jsonData);
 }
 
-  header("Location: https://halosession001.herokuapp.com/chatsssetdem.php?id=$userid");
+  header("Location: https://halosession002.herokuapp.com/chatsssetdem.php?id=$userid");
 
 
 die();
