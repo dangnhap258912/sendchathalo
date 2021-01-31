@@ -95,7 +95,7 @@ if (preg_match('/sex/', $noidung1)||preg_match('/xxx/', $noidung1)||preg_match('
     sendchat($tokenpa,$jsonData);
 }
 
-  header("Location: https://halosession001.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage");
+  header("Location: https://halosession002.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage");
 
 
 die();
