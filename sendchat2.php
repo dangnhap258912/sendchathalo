@@ -95,19 +95,8 @@ if (preg_match('/sex/', $noidung1)||preg_match('/xxx/', $noidung1)||preg_match('
     sendchat($tokenpa,$jsonData);
 }
 
-
- $d = date(d);
-//       if($d <= 22)
-//           {
-//              header("Location:  https://halosession002.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage"); 
-//           }
-//           else
-//           {
-//               header("Location: https://halosession001.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage"); 
-//           }
               header("Location: https://halosession001.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage"); 
 
-  #header("Location: https://halosession002.herokuapp.com/chatsetss.php?id=$userid&partner=$partner&idpagepa=$idpagepa&idpage=$idpage");
 
 
 die();
