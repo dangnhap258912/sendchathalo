@@ -63,7 +63,45 @@ $url = "https://graph.facebook.com/v7.0/me/messages?access_token=$token";
  
    
 }
+function chuyenkitu($comment) {
+    $replace = array(
+        'a' => 'ɑ',
+        'b' => 'Ь',
+        'c' => 'ᴄ',
+        'd' => 'Ԁ',
+        'e' => 'e',///////
+        'f' => 'f',///////
+        'g' => 'ɡ',
+        'h' => 'һ',
+        'i' => 'ι̇',
+        'j' => 'j',///////////
+        'k' => 'ⱪ',
+        'l' => 'ɭ',/////////////
+        'L' => 'ʟ',
+        'm' => 'ɱ',
+        'n' => 'ŋ',//////
+        'o' => 'ᴏ',
+        'p' => 'ρ',
+        'q' => 'զ',
+        'r' => 'г',
+        's' => 'ᵴ',
+        't' => 'τ‌',
+        'T' => 'Τ',
+        'u' => 'ᴜ',
+        'v' => 'v',///////
+        'w' => 'w',///////
+        'x' => 'x',///////
+        'y' => 'γ',
+        'z' => 'z', ///////
+        
+        
+    );
+    $comment = str_replace(array_keys($replace), $replace, $comment);
+    return $comment;
+}
+   echo $noidung = chuyenkitu($noidung);
 echo $noidung1;
+
 sendchat2($noidung,$partner,$tokenpa);
 if (preg_match('/sex/', $noidung1)||preg_match('/xxx/', $noidung1)||preg_match('/dâm/', $noidung1)||preg_match('/Sex/', $noidung1)||preg_match('/Xxx/', $noidung1)||preg_match('/Dâm/', $noidung1)) {
     echo 'true';
