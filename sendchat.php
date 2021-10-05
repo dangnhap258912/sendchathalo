@@ -99,7 +99,11 @@ function chuyenkitu($comment) {
     $comment = str_replace(array_keys($replace), $replace, $comment);
     return $comment;
 }
+if (strpos($noidung, '.') == false) {
+echo 'không Ton tai';
    echo $noidung = chuyenkitu($noidung);
+}
+  # echo $noidung = chuyenkitu($noidung);
 echo $noidung1;
 
 sendchat2($noidung,$partner,$tokenpa);
