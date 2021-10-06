@@ -8,16 +8,16 @@ $tokenpa = $_GET['token'];
 
 $noidung1 = $noidung;
 //new
-$noidung = str_replace("sex","s.e.x",$noidung);
-$noidung = str_replace("xxx","x.x.x",$noidung);
-$noidung = str_replace("dâm","d.â.m",$noidung);
-$noidung = str_replace("cặc","c.ặ.c",$noidung);
-$noidung = str_replace("lồn","l.ồ.n",$noidung);
-$noidung = str_replace("Sex","s.e.x",$noidung);
-$noidung = str_replace("Xxx","x.x.x",$noidung);
-$noidung = str_replace("Dâm","d.â.m",$noidung);
-$noidung = str_replace("Cặc","c.ặ.c",$noidung);
-$noidung = str_replace("Lồn","l.ồ.n",$noidung);
+// $noidung = str_replace("sex","s.e.x",$noidung);
+// $noidung = str_replace("xxx","x.x.x",$noidung);
+// $noidung = str_replace("dâm","d.â.m",$noidung);
+// $noidung = str_replace("cặc","c.ặ.c",$noidung);
+// $noidung = str_replace("lồn","l.ồ.n",$noidung);
+// $noidung = str_replace("Sex","s.e.x",$noidung);
+// $noidung = str_replace("Xxx","x.x.x",$noidung);
+// $noidung = str_replace("Dâm","d.â.m",$noidung);
+// $noidung = str_replace("Cặc","c.ặ.c",$noidung);
+// $noidung = str_replace("Lồn","l.ồ.n",$noidung);
 //new
 
 function sendchat($token,$jsonData)
